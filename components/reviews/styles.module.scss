@@ -1,0 +1,65 @@
+.container{
+  max-width: 1920px;
+  height: 678px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  @media (max-width: 400px) {
+    max-width: 400px;
+    height: 159px;
+  }
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  @media (max-width: 400px) {
+    display: none;
+  }
+}
+
+.reviewContainer {
+  display: flex;
+  align-items: center;
+}
+
+.titleMain{
+  color: #312436;
+  font-family: Fjalla One,sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 70px;
+  padding-top: 50px;
+  @media (max-width: 400px) {
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+  }
+}
+
+.arrowLeft{
+  position: absolute;
+  right: 1020px;
+  @media (max-width: 400px) {
+    right: 270px;
+  }
+}
+
+.arrowRight{
+  position: absolute;
+  left: 1020px;
+  @media (max-width: 400px) {
+    left: 270px;
+  }
+}
+
+
+
+

@@ -1,0 +1,63 @@
+.languageSlider {
+  position: absolute;
+  top: 45px;
+  left: 1700px;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  z-index: 100;
+  @media (max-width: 400px) {
+    top: 0px;
+    left: 150px;
+  }
+
+  input[type="range"] {
+    width: 40px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: #d3d3d3;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    @media (max-width: 400px) {
+      width: 20px;
+    }
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.3s ease-in-out;
+    @media (max-width: 400px) {
+      background: #fff;
+      width: 7px;
+      height: 7px;
+
+    }
+  }
+
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background: #000;
+    @media (max-width: 400px) {
+      background: #fff;
+    }
+  }
+
+  label {
+    font-size: 14px;
+    margin: 5px 5px;
+    color: #555;
+    @media (max-width: 400px) {
+      font-size: 7px;
+      color: #fff7f9;
+    }
+  }
+
+}
+

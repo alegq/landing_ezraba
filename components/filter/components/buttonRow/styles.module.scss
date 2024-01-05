@@ -1,0 +1,80 @@
+.buttonRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 10%;
+  gap: 10px;
+  @media (max-width: 400px) {
+    margin: 15px 0;
+  }
+
+.button {
+    height: 86px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0px -5px 1px 0px #0A0A0A inset, 6px 5px 1px 0px #BEBEBE inset, -5px -6px 1px 0px #000 inset;
+    border: none;
+    background-color: #FFFFFF;
+    position: relative;
+    @media (max-width: 400px) {
+      height: 33px;
+      width: 75px;
+      margin: 0 5px;
+      padding-right: 0;
+      padding-left: 0;
+      background: #FFF;
+      box-shadow: 0px -1.33565px 0.26713px 0px #0A0A0A inset, 1.60279px 1.33565px 0.26713px 0px #BEBEBE inset, -1.33565px -1.60279px 0.26713px 0px #000 inset;
+    }
+}
+
+  .buttonBig{
+    width: 717px;
+    @media (max-width: 400px) {
+      width: 170px;
+    }
+  }
+  .buttonSmall{
+    width: 200px;
+    @media (max-width: 400px) {
+      width: 53px;
+    }
+  }
+
+  .button.active {
+    background: #E7E7E7;
+    box-shadow: 6px 5px 1px 0px #989595 inset;
+    @media (max-width: 400px) {
+      box-shadow: 1.21874px 1.01561px 0.20312px 0px #989595 inset;
+    }
+  }
+
+  .textButton{
+    text-align: center;
+    color: #312436;
+    font-family: Molengo, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    @media (max-width: 400px) {
+      font-size: 9px;
+    }
+  }
+}
+
+.redButtonRow{
+  border: 1px solid red;
+  padding: 9px;
+}
+
+.flexDirection{
+  flex-direction: row !important;
+}
+
+
+
+
+

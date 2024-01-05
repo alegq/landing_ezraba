@@ -1,0 +1,71 @@
+{
+  "header": {
+    "services": "Services",
+    "contact": "Contact",
+    "schedule": "schedule",
+    "text": "let me do the cleaning: discover the benefits of my services"
+  },
+  "info": {
+    "text": "As a professional maid, I can significantly change your daily routine.\n       You will be able to save your time, get professional service with\n      an individual approach and be calm about your home."
+  },
+  "services": {
+    "title1": "Cleaning a studio apartment",
+    "title2": "Office cleaning",
+    "title3": "Kitchen cleaning",
+    "text1": "Involves thoroughly cleaning all areas of the apartment to create a hygienic and visually appealing environment. This typically includes tasks such as dusting surfaces, vacuuming or sweeping the floor, cleaning the kitchen and bathroom, and doing laundry. \nThe goal is to remove dirt, grime, and debris from all areas of the apartment to create a clean and tidy living space.",
+    "text2": "Involves cleaning and maintaining all areas of a commercial office space. This typically includes tasks such as dusting surfaces, vacuuming or sweeping the floor, cleaning bathrooms, wiping down surfaces, and organizing common areas. Regular office cleaning helps to prevent the spread of germs and bacteria, which can improve the health and well-being of those who use the space. ",
+    "text3": "Includes wiping countertops, cabinets and household appliances to remove dirt, cleaning the sink, including the faucet, handles and drain hole, cleaning the stove, oven and microwave. Washing the refrigerator and freezer, including internal and external surfaces and handles. Sweeping and mopping floors.\nGarbage removal and replacement of garbage bags."
+  },
+  "benefits": {
+    "title": "Benefits",
+    "text1": "Saving you time",
+    "text2": "Individual service",
+    "text3": "Benefit for health",
+    "text4": "professional service"
+  },
+  "filter": {
+    "filter": "Filter",
+    "frequency": "frequency",
+    "cleaning": "cleaning",
+    "allergy": "allergy",
+    "address": "Address",
+    "search": "Search",
+    "buttonName1": "One-time cleaning",
+    "buttonName2": "Fortnightly",
+    "buttonName3": "Every week",
+    "buttonName4": "None",
+    "buttonName5": "cats",
+    "buttonName6": "dogs",
+    "buttonName7": "Regular",
+    "buttonName8": "Window",
+    "buttonName9": "repair",
+    "buttonName10": "transfer"
+  },
+  "schedule": {
+    "title": "Schedule",
+    "order": "order"
+  },
+  "prepare": {
+    "title": "What you need to prepare for me",
+    "text1": "The importance of selecting an appropriate material for cleaning the floor to prevent slipping.",
+    "text2": "The significance of using a suitable cleaning product for bathrooms to ensure effective removal of dirt and mold. It is recommended to use a special cleaner, such as \"silit,\" for cleaning tiles.",
+    "text3": "The necessity of using an appropriate cleaning product for washing windows when cleaning glass and mirrors. The appropriate product will make windows, mirrors, cabinet doors, light switches, and walls shiny, remove handprints, stains and dirt."
+  },
+  "reviews": {
+    "title": "Reviews",
+    "name1": "Melissa",
+    "name2": "John",
+    "name3": "Ron",
+    "name4": "Agnes",
+    "text1": "I used to hate cleaning, but now I find it very therapeutic. There's something satisfying about having a clean and organized space",
+    "text2": "I love the feeling of a clean and organized space, but I don't always have the motivation to clean. This service helped me.",
+    "text3": "I used to hate cleaning, but now I find it very therapeutic. There's something satisfying about having a clean and organized space",
+    "text4": "I love the feeling of a clean and organized space, but I don't always have the motivation to clean. This service helped me."
+  },
+  "footer": {
+    "title": "Contacts",
+    "telegram": "telegram",
+    "viber": "viber",
+    "whatsapp": "whatsapp"
+  }
+}

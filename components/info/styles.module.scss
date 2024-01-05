@@ -1,0 +1,34 @@
+.container {
+  max-width: 1920px;
+  height: 419px;
+  display: flex; /* Добавляем flex-контейнер */
+  align-items: center; /* Выравниваем по вертикали по центру */
+  justify-content: center; /* Выравниваем по горизонтали по центру */
+
+
+}
+
+.text{
+  width: 1367px;
+  color: #312436;
+  font-family: Fjalla One,sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 400px) {
+  .container{
+    max-width: 400px;
+    height: 150px;
+  }
+  .text{
+    font-size: 11px;
+    width: 311px;
+  }
+
+}
+
+
+

@@ -1,0 +1,82 @@
+.container {
+  max-width: 1920px;
+  height: 1066px;
+  background-image: url('../../public/assets/image_prepare/prepare.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 81px;
+  background-size: cover;
+  background-position: center;
+}
+
+.title{
+  margin-bottom: 50px;
+  color: #FFF;
+  font-family: Fjalla One,sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+}
+
+.itemNumber{
+  margin: 0 25px;
+  color: #FFF;
+  text-align: center;
+  font-family: Fjalla One,sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.itemText{
+  width: 1264px;
+  color: #FFF;
+  font-family: Molengo,sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text{
+  width: 1367px;
+  color: #312436;
+  font-family: Fjalla One,sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 400px) {
+  .container{
+    max-width: 400px;
+    height: 220px;
+    gap: 20px;
+  }
+  .title{
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .itemNumber{
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .itemText{
+    font-size: 8px;
+    width: 294px;
+  }
+
+}
+
+
+

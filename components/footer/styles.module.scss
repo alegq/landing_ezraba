@@ -1,0 +1,49 @@
+.container {
+  max-width: 1920px;
+  height: 563px;
+  background-color: #312436;
+  display: flex; /* Добавляем flex-контейнер */
+  flex-direction: column;
+  align-items: center; /* Выравниваем по вертикали по центру */
+  justify-content: center; /* Выравниваем по горизонтали по центру */
+  gap: 10px;
+
+
+}
+
+.text{
+  margin-bottom: 81px;
+  color: #FFF;
+  font-family: Fjalla One,sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button{
+  background-color: #FFFFFF;
+  width: 375px;
+  height: 86px;
+  border: none;
+}
+
+@media (max-width: 400px) {
+  .container{
+    max-width: 400px;
+    height: 127px;
+    gap: 4px;
+  }
+  .text{
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  .button{
+    width: 96px;
+    height: 22px;
+  }
+
+}
+
+
+

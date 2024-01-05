@@ -1,0 +1,146 @@
+.container {
+  max-width: 1920px;
+ // height: 960px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  @media (max-width: 400px) {
+    max-width: 400px;
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 48%;
+  height: 1080px;
+  background-color: #312436;
+  @media (max-width: 400px) {
+    height: 219px;
+    width: 48%;
+  }
+}
+
+.menu{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.buttonMenu {
+  margin: 45px;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: Fjalla One, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  @media (max-width: 400px) {
+    display: none;
+  }
+}
+
+.buttonMenu:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 50px;
+
+}
+
+.imageWomen {
+  width: 52%;
+  height: 1080px;
+  background-image: url('../../public/assets/photo_header/women.png');
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: 400px) {
+    height: 219px;
+  }
+}
+
+.modalSchedule {
+  //position: relative;
+  margin-top: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  width:750px;
+  height: 475px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  background: rgba(240, 240, 240, 0.10);
+  backdrop-filter: blur(7.5px);
+  z-index: 1;
+  @media (max-width: 400px) {
+    margin-top: 30%;
+    border-radius: 10px;
+    width:152px;
+    height: 96px;
+  }
+}
+
+.text{
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 20px;
+  color: #FFF;
+  font-family: Fjalla One,sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.375%; /* 65.625px */
+  text-transform: uppercase;
+}
+
+.customButton{
+  width: 311px;
+  height: 98px;
+  box-shadow: 0px -5px 1px 0px #0A0A0A inset, 6px 5px 1px 0px #FFF inset, -5px -6px 1px 0px #000 inset;
+}
+
+@media (max-width: 400px) {
+  .text{
+    margin-left: 12px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .customButton{
+    width: 59px;
+    height: 18px;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+.menuBurger{
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  padding: 6px 3px 6px 3px;
+  @media (min-width: 401px) {
+    display: none;
+  }
+}
+
+.burgerRectangle{
+  width: 21px;
+  height: 2px;
+  border: 1px solid #4CEACA;
+  margin-bottom: 2px;
+}
